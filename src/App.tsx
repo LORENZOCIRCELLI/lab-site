@@ -44,32 +44,20 @@ export default function App() {
 
       <section className="min-h-screen flex items-center justify-center px-6 pt-30 mb-20">
         <div className="max-w-5xl text-center">
-
-          {/* BRASÃO */}
-          <img
-            src="src\brasao.png"
-            alt="Universidade de Ribeirão Preto"
-            className="w-28 h-28 mx-auto mb-8"
-          />
-
-          {/* TAG SUPERIOR */}
-          <div className="mb-6 inline-block rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-cyan-400">
-            Universidade de Ribeirão Preto
-          </div>
-
           {/* TÍTULO */}
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
             Laboratório de Computação Científica e Alto Desempenho
-            <span className="text-cyan-400 block mt-2">
-              Transformando ciência em soluções computacionais
-            </span>
+
           </h1>
 
           {/* DESCRIÇÃO */}
           <p className="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-            Pesquisa, inovação e desenvolvimento em Computação Científica,
-            Inteligência Artificial, Simulações Numéricas e Computação de Alto Desempenho.
+            Universidade de Ribeirão Preto
           </p>
+
+          <div className="mb-6 inline-block rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-cyan-400">
+            Universidade de Ribeirão Preto
+          </div>
 
           {/* BOTÕES */}
           <div className="flex flex-col md:flex-row justify-center gap-4">
@@ -84,32 +72,6 @@ export default function App() {
 
         </div>
       </section>
-
-      {/* ESTATÍSTICAS */}
-      <section className="border-y border-slate-800 py-12">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-6 text-center">
-          <div>
-            <h2 className="text-4xl font-bold text-cyan-400">25+</h2>
-            <p className="text-slate-400">Pesquisadores</p>
-          </div>
-
-          <div>
-            <h2 className="text-4xl font-bold text-cyan-400">120+</h2>
-            <p className="text-slate-400">Publicações</p>
-          </div>
-
-          <div>
-            <h2 className="text-4xl font-bold text-cyan-400">15+</h2>
-            <p className="text-slate-400">Projetos</p>
-          </div>
-
-          <div>
-            <h2 className="text-4xl font-bold text-cyan-400">4</h2>
-            <p className="text-slate-400">Nós de GPU</p>
-          </div>
-        </div>
-      </section>
-
       {/* SOBRE */}
       <section
         id="sobre"
@@ -124,6 +86,12 @@ export default function App() {
           como objetivo desenvolver pesquisas e tecnologias avançadas
           para a solução de problemas científicos, acadêmicos e
           industriais por meio da computação.
+        </p>
+
+        <p className="text-slate-400 leading-8 text-lg">
+          O propósito dessa iniciativa é promover um ambiente de pesquisa colaborativo e interdisciplinar, onde
+          estudantes, professores e pesquisadores possam trabalhar juntos para enfrentar desafios computacionais 
+          complexos e contribuir para o avanço do conhecimento científico e tecnológico.
         </p>
 
         <p className="text-slate-400 leading-8 text-lg mt-6">
@@ -272,8 +240,8 @@ export default function App() {
       cargo: "Aluno de Graduação",
     },
     {
-      nome: "Ana Costa",
-      cargo: "Aluno de Iniciação Científica",
+      nome: "Hugo França",
+      cargo: "Aluno de Graduação",
     },
   ].map(({ nome, cargo }) => (
     <div
