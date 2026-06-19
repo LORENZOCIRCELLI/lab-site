@@ -270,7 +270,7 @@ export default function App() {
     {
       foto:"/photos/Lorenzo.png",
       nome: "Lorenzo C. Circelli",
-      cargo: "Supervisor - Aluno de Graduação",
+      cargo: "Aluno de Graduação",
     },
     {
       foto:"/photos/Hugo.png",
