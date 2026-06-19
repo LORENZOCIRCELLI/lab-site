@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Introdução ao meu blog",
+    "description": "Como esse sistema de posts foi criado",
+    "image": "https://picsum.photos/600/400?random=1",
+    "content": "Esse é o primeiro post do blog. Aqui explico como o sistema de cards e rotas foi montado usando React e TypeScript."
+  },
+  {
+    "id": "2",
+    "title": "Entendendo React Router",
+    "description": "Como navegar entre páginas no React",
+    "image": "https://picsum.photos/600/400?random=2",
+    "content": "React Router permite criar navegação entre páginas sem recarregar o site, usando rotas dinâmicas como /post/:id."
+  },
+  {
+    "id": "3",
+    "title": "JSON como fonte de dados",
+    "description": "Usando arquivos locais como banco de dados simples",
+    "image": "https://picsum.photos/600/400?random=3",
+    "content": "Neste projeto, os posts são armazenados em um arquivo JSON local, simulando um backend simples e rápido."
+  },
+  {
+    "id": "4",
+    "title": "Como funcionam os componentes",
+    "description": "Separação de UI em partes reutilizáveis",
+    "image": "https://picsum.photos/600/400?random=4",
+    "content": "Componentes no React permitem dividir a interface em blocos reutilizáveis como cards, páginas e layouts."
+  },
+  {
+    "id": "5",
+    "title": "Estilização com CSS inline",
+    "description": "Uma forma simples de estilizar rapidamente",
+    "image": "https://picsum.photos/600/400?random=5",
+    "content": "No início do projeto usamos CSS inline para facilitar testes rápidos e visualização dos componentes."
+  },
+  {
+    "id": "6",
+    "title": "Evoluindo para um blog real",
+    "description": "Ideias para transformar isso em produção",
+    "image": "https://picsum.photos/600/400?random=6",
+    "content": "Esse sistema pode evoluir para um blog completo com backend, banco de dados e autenticação de usuários."
+  },
+  {
+    "id": "7",
+    "title": "Performance no React",
+    "description": "Boas práticas para evitar re-renderizações",
+    "image": "https://picsum.photos/600/400?random=7",
+    "content": "Usar memo, useCallback e estrutura correta de componentes ajuda a melhorar performance em apps React."
+  },
+  {
+    "id": "8",
+    "title": "Ideias futuras do projeto",
+    "description": "O que pode ser adicionado depois",
+    "image": "https://picsum.photos/600/400?random=8",
+    "content": "Futuras melhorias incluem busca estilo Google, filtros por tags, markdown e até integração com backend em Spring Boot."
+  }
+]
